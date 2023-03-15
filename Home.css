@@ -11,6 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .q1{
     width: 97%;
@@ -67,7 +68,6 @@
 }
 .wrapper .menu-btn i{
   position: absolute;
-  transform: ;
   font-size: 23px;
   transition: all 0.3s ease;
 }
