@@ -5,158 +5,32 @@
 .container{
     width: 100%;
     height: 100vh;
-    background-color: rgb(0, 0, 0);
-    background-image: url(border.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .q1{
-    width: 100%;
-    height: 100%;
-    display: flex;
+    width: 97%;
+    height: 95%;
     background-color: white;
-    background-image: url(https://static.vecteezy.com/system/resources/previews/003/641/130/original/colorful-pink-blurred-backgrounds-valentine-s-day-pink-background-abstract-gradient-light-pink-illustration-free-vector.jpg);
+    background-image: url(data:image/jpeg;base64,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);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    justify-content: center;
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
 }
-
-.form-control {
-    position: relative;
-    margin: 20px 0 40px;
-    width: 190px;
-  }
-  
-  .form-control input {
-    background-color: transparent;
-    border: 0;
-    border-bottom: 2px rgb(0, 0, 0) solid;
-    display: block;
-    width: 100%;
-    padding: 15px 0;
-    font-size: 18px;
-    color: rgb(0, 0, 0);
-  }
-  
-  .form-control input:focus,
-  .form-control input:valid {
-    outline: 0;
-    border-bottom-color: rgb(0, 0, 0);
-  }
-  
-  .form-control label {
-    position: absolute;
-    top: 15px;
-    left: 0;
-    pointer-events: none;
-  }
-  
-  .form-control label span {
-    display: inline-block;
-    font-size: 18px;
-    min-width: 5px;
-    color: rgb(0, 0, 0);
-    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  .form-control input:focus+label span,
-  .form-control input:valid+label span {
-    color: rgb(0, 0, 0);
-    transform: translateY(-30px);
-  }
-  button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    position: relative;
-    padding: 0 20px;
-    font-size: 18px;
-    text-transform: uppercase;
-    border: 0;
-    box-shadow: hsl(303, 68%, 51%) 0px 7px 0px 0px;
-    background-color: hsl(303, 74%, 61%);
-    border-radius: 12px;
-    overflow: hidden;
-    transition: 31ms cubic-bezier(.5, .7, .4, 1);
-   }
-   
-   button:before {
-    content: attr(alt);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    inset: 0;
-    font-size: 15px;
-    font-weight: bold;
-    color: white;
-    letter-spacing: 4px;
-    opacity: 1;
-   }
-   
-   button:active {
-    box-shadow: none;
-    transform: translateY(7px);
-    transition: 35ms cubic-bezier(.5, .7, .4, 1);
-   }
-   
-   button:hover:before {
-    transition: all .0s;
-    transform: translateY(100%);
-    opacity: 0;
-   }
-   
-   button i {
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
-    letter-spacing: 4px;
-    font-style: normal;
-    transition: all 2s ease;
-    transform: translateY(-20px);
-    opacity: 0;
-   }
-   
-   button:hover i {
-    transition: all .2s ease;
-    transform: translateY(0px);
-    opacity: 1;
-   }
-   
-   button:hover i:nth-child(1) {
-    transition-delay: 0.045s;
-   }
-   
-   button:hover i:nth-child(2) {
-    transition-delay: calc(0.045s * 3);
-   }
-   
-   button:hover i:nth-child(3) {
-    transition-delay: calc(0.045s * 4);
-   }
-   
-   button:hover i:nth-child(4) {
-    transition-delay: calc(0.045s * 5);
-   }
-   
-   button:hover i:nth-child(6) {
-    transition-delay: calc(0.045s * 6);
-   }
-   
-   button:hover i:nth-child(7) {
-    transition-delay: calc(0.045s * 7);
-   }
-   
-   button:hover i:nth-child(8) {
-    transition-delay: calc(0.045s * 8);
-   }
-   
-   button:hover i:nth-child(9) {
-    transition-delay: calc(0.045s * 9);
-   }
-   
-   button:hover i:nth-child(10) {
-    transition-delay: calc(0.045s * 10);
-   }
+.w1{
+  width: 40%;
+  height: 90%;
+  background-color: white;
+}
+.w2{
+  width: 5%;
+  height: 100%
+}
+.e1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
