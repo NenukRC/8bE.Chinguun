@@ -6,7 +6,7 @@
 }
 .container{
     width: 100%;
-    height: 100vh;
+    height: 200vh;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
@@ -14,28 +14,35 @@
     
 }
 .q1{
-    width: 97%;
+    width: 100%;
     height: 95%;
     background-color: rgb(0, 0, 0);
 }
 .w1{
     width: 100%;
-    height: 12%;
+    height: 5%;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+.w0{
+  width: 100%;
+  height: 50%;
+}
 .w2{
     width: 100%;
-    height: 53%;
+    height: 33%;
     background-color: rgb(255, 0, 0);
 }
 
 .w3{
     width: 100%;
-    height: 40%;
+    height: 20%;
     background-color: rgb(0, 0, 0);
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/658/239/non_2x/vector-minimal-abstract-ultra-wide-space-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -250,12 +257,10 @@ button:active {
 .i1{
   width: 40%;
   height: 100%;
-  background-color: rgb(208, 208, 208);
 }
 .i2{
   width: 22%;
   height: 100%;
-  background-color: rgb(235, 234, 234);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -264,7 +269,6 @@ button:active {
 .i3{
   width: 40%;
   height: 100%;
-  background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -273,7 +277,6 @@ button:active {
 .o1{
   width: 100%;
   height: 50%;
-  background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -282,7 +285,6 @@ button:active {
 .o2{
   width: 100%;
   height: 50%;
-  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
