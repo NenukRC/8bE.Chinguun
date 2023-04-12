@@ -6,21 +6,13 @@
 }
 .container{
     width: 100%;
-    height: 200vh;
+    height: 100vh;
     background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
 }
-.q1{
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0, 0, 0);
-}
+
 .w1{
     width: 100%;
-    height: 5%;
+    height: 10%;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
@@ -28,9 +20,7 @@
 }
 .w2{
     width: 100%;
-    height: 33%;
-    display: flex;
-    justify-content: space-around;
+    height: 90%;
 }
 
 .input {
@@ -168,6 +158,21 @@
     -webkit-transition: all 0.25s;
     box-shadow: none;
   }
+  .y1{
+    width: 100%;
+    height: 25%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+  }
+  .y2{
+    width: 100%;
+    height: 75%;
+    background-color: rgb(243, 241, 241);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
   .card {
     width: 190px;
     height: 244px;
@@ -223,3 +228,199 @@
   .name:hover {
     cursor: pointer;
   }
+
+  .btn {
+    font-size: 17px;
+    background: transparent;
+    border: none;
+    padding: 1em 1.5em;
+    color: #000000;
+    text-transform: uppercase;
+    position: relative;
+    transition: .5s ease;
+  }
+  
+  .btn::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #000000;
+    transition: .5s ease;
+  }
+  
+  .btn:hover {
+    color: #ffffff;
+    transition-delay: .5s;
+  }
+  
+  .btn:hover::before {
+    width: 100%;
+  }
+  
+  .btn::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: #ffffff;
+    transition: .4s ease;
+    z-index: -1;
+  }
+  
+  .btn:hover::after {
+    height: 100%;
+    transition-delay: 0.4s;
+    color: aliceblue;
+  }
+  
+  .btn {
+    font-size: 17px;
+    background: transparent;
+    border: none;
+    padding: 1em 1.5em;
+    color: #000000;
+    text-transform: uppercase;
+    position: relative;
+    transition: .5s ease;
+  }
+  
+  .btn::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #000000;
+    transition: .5s ease;
+  }
+  
+  .btn:hover {
+    color: #ffffff;
+    transition-delay: .5s;
+  }
+  
+  .btn:hover::before {
+    width: 100%;
+  }
+  
+  .btn::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: #ffffff;
+    transition: .4s ease;
+    z-index: -1;
+  }
+  
+  .btn:hover::after {
+    height: 100%;
+    transition-delay: 0.4s;
+    color: aliceblue;
+  }
+  .btn {
+    font-size: 17px;
+    background: transparent;
+    border: none;
+    padding: 1em 1.5em;
+    color: #000000;
+    text-transform: uppercase;
+    position: relative;
+    transition: .5s ease;
+  }
+  
+  .btn::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #000000;
+    transition: .5s ease;
+  }
+  
+  .btn:hover {
+    color: #ffffff;
+    transition-delay: .5s;
+  }
+  
+  .btn:hover::before {
+    width: 100%;
+  }
+  
+  .btn::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: #ffffff;
+    transition: .4s ease;
+    z-index: -1;
+  }
+  
+  .btn:hover::after {
+    height: 100%;
+    transition-delay: 0.4s;
+    color: aliceblue;
+  }
+  
+  .btn {
+    font-size: 17px;
+    background: transparent;
+    border: none;
+    padding: 1em 1.5em;
+    color: #000000;
+    text-transform: uppercase;
+    position: relative;
+    transition: .5s ease;
+  }
+  
+  .btn::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #000000;
+    transition: .5s ease;
+  }
+  
+  .btn:hover {
+    color: #ffffff;
+    transition-delay: .5s;
+  }
+  
+  .btn:hover::before {
+    width: 100%;
+  }
+  
+  .btn::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: #ffffff;
+    transition: .4s ease;
+    z-index: -1;
+  }
+  
+  .btn:hover::after {
+    height: 100%;
+    transition-delay: 0.4s;
+    color: aliceblue;
+  }
+  

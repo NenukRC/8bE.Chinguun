@@ -6,7 +6,7 @@
 }
 .container{
     width: 100%;
-    height: 200vh;
+    height: 150vh;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
@@ -20,29 +20,26 @@
 }
 .w1{
     width: 100%;
-    height: 5%;
+    height: 7%;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.w0{
-  width: 100%;
-  height: 50%;
-}
 .w2{
     width: 100%;
-    height: 33%;
-    background-color: rgb(255, 0, 0);
+    height: 61%;
+    background-color: rgb(215, 215, 215);
+    background-image: url(https://o.remove.bg/downloads/a923eec8-70c0-4658-9b21-dd14325ec49d/minimalism-digital-art-humor-simple-background-wallpaper-preview-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
+
 
 .w3{
     width: 100%;
-    height: 20%;
-    background-color: rgb(0, 0, 0);
-    background-image: url(https://static.vecteezy.com/system/resources/previews/000/658/239/non_2x/vector-minimal-abstract-ultra-wide-space-background.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    height: 39%;
+    background-color: #ff78f1;
     display: flex;
     justify-content: space-between;
     align-items: center;
