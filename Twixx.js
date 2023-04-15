@@ -1,4 +1,4 @@
-let une = 2500;
+let une = 3000;
 function CandyShop() {  
   let torol = document.getElementById("torol").value;
   let sh = document.getElementById("shirheg").value;

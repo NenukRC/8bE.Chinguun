@@ -16,7 +16,6 @@
 .q1{
     width: 100%;
     height: 95%;
-    background-color: rgb(0, 0, 0);
 }
 .w1{
     width: 100%;
@@ -29,8 +28,7 @@
 .w2{
     width: 100%;
     height: 61%;
-    background-color: rgb(215, 215, 215);
-    background-image: url(https://o.remove.bg/downloads/a923eec8-70c0-4658-9b21-dd14325ec49d/minimalism-digital-art-humor-simple-background-wallpaper-preview-removebg-preview.png);
+    background-image: url(https://wallpaperaccess.com/full/3159032.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -39,7 +37,9 @@
 .w3{
     width: 100%;
     height: 39%;
-    background-color: #ff78f1;
+    background-image: url(./3159032.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,20 +55,20 @@
   border: 2px solid transparent;
   border-radius: 8px;
   outline: none;
-  background-color: #D9E8D8;
+  background-color: #fad3f1;
   color: #0d0c22;
-  box-shadow: 0 0 5px #C1D9BF, 0 0 0 10px #f5f5f5eb;
+  box-shadow: 0 0 5px #f9b4fb, 0 0 0 10px #ecececeb;
   transition: .3s ease;
 }
 
 .input::placeholder {
-  color: #777;
+  color: #000000;
 }
 
 .icon {
   position: absolute;
   left: 1rem;
-  fill: #777;
+  fill: #000000;
   width: 1rem;
   height: 1rem;
 }   
@@ -163,7 +163,7 @@ button {
   padding: 12.5px 30px;
   border: 0;
   border-radius: 100px;
-  background-color: #a8a8a8;
+  background-color: #e100ff;
   color: #ffffff;
   font-weight: Bold;
   transition: all 0.5s;
@@ -171,7 +171,7 @@ button {
 }
 
 button:hover {
-  background-color: #585858;
+  background-color: #ff00dd;
   box-shadow: 0 0 20px #6fc5ff50;
 }
 
@@ -196,64 +196,13 @@ button:active {
   justify-content: space-around;
   align-items: center;
 }
-.card {
-  width: 190px;
-  height: 244px;
-  background: white;
-  padding: .4em;
-  border-radius: 6px;
-}
 
-.card-image {
-  background-color: rgb(236, 236, 236);
-  width: 100%;
-  height: 60%;
-  border-radius: 6px 6px 0 0;
-}
-
-.card-image:hover {
-  transform: scale(0.98);
-}
-
-.category {
-  text-transform: uppercase;
-  font-size: 0.7em;
-  font-weight: 600;
-  color: rgb(63, 121, 230);
-  padding: 10px 7px 0;
-}
-
-.category:hover {
-  cursor: pointer;
-}
-
-.heading {
-  font-weight: 600;
-  color: rgb(88, 87, 87);
-  padding: 7px;
-}
-
-.heading:hover {
-  cursor: pointer;
-}
-
-.author {
-  color: gray;
-  font-weight: 400;
-  font-size: 11px;
-  padding-top: 20px;
-}
-
-.name {
-  font-weight: 600;
-}
-
-.name:hover {
-  cursor: pointer;
-}
 .i1{
   width: 40%;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .i2{
   width: 22%;
@@ -479,4 +428,11 @@ button:active {
   height: 100%;
   transition-delay: 0.4s;
   color: aliceblue;
+}
+.zzz1{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
