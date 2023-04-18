@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://img.freepik.com/premium-vector/pastel-mesh-blurred-background-multi-color-gradient-pattern-smooth-modern-watercolor-style_124894-133.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.q1{
+    width: 98%;
+    height: 98%;
+}
+.e1{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.w1{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.w2{
+    width: 50%;
+    height: 100%;
+}
+.w3{
+    width: 50%;
+    height: 100%;
+}
+.a1{
+    width: 80%;
+    height: 40%;
+}
