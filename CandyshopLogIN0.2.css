@@ -176,3 +176,11 @@ button:hover::before {
 button:hover::after {
   transform: translate(50%, 0) scale(1.1);
 }
+@media screen and (max-width: 860px) {
+  .e1 {
+     display: none;
+  }
+    .w1{
+      
+    }
+}
