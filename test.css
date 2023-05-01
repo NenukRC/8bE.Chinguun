@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.maincontainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.main{
+    height: 100%;
+    width: 50%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.open{
+    height: 80%;
+    width: 60%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+p{
+    font-size: 30px
+}
+.p2{
+    color: aliceblue;
+}
+#name, #email, #age{
+    height: 30px;
+    width: 350px;
+}
+.but{
+    height: 50px;
+    width: 100px;
+}
