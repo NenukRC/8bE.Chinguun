@@ -6,7 +6,7 @@
 }
 .container{
     width: 100%;
-    height: 120vh;
+    height: 100vh;
     background-color: rgb(255, 255, 255);
     background-image: url(https://www.color-meanings.com/wp-content/uploads/Purple-and-pink-gradient-pattern-1024x576.jpeg);
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
 
 .w1{
     width: 100%;
-    height: 12%;
+    height: 15%;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
@@ -23,10 +23,12 @@
 }
 .w2{
     width: 100%;
-    height: 88%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-
-.input {
+input {
     height: 40px;
     line-height: 28px;
     padding: 0 1rem;
@@ -161,21 +163,6 @@
     -webkit-transition: all 0.25s;
     box-shadow: none;
   }
-  .y1{
-    width: 100%;
-    height: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .y2{
-    width: 100%;
-    height: 70%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
   .card {
     width: 190px;
     height: 244px;
@@ -183,20 +170,6 @@
     padding: .4em;
     border-radius: 6px;
   }
-  #products{
-    width: 80%;
-    height: 50%;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
-}
-.productImage{
-  width: 90%;
-  height: auto;
-}
-  
   .card-image {
     width: 100%;
     height: 60%;
@@ -464,20 +437,14 @@
     .w2{
       width: 100%;
       height: 90%;
-    }
-    .y2{
-      width: 100%;
-      height: 50%;
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      justify-content: space-between;
+        flex-wrap: wrap;
     }
+   
     .card{
       width: 27%;
       height: 60%;
       background-size: 10%;
       font-size: 2px;
     }
-  }
+}
