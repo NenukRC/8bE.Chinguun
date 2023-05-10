@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bigcontainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 98%;
+    height: 100%;
+}
+.q1{
+    width: 100%;
+    height: 65%;
+    background-color: aqua;
+}
+.q2{
+    width: 100%;
+    height: 35%;
+    background-color: blue;
+}
+.w1{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(195, 0, 255);
+    display: flex;
+}
+.w2{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+.w3{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(238, 255, 0);
+}
+.e1{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+.e2{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+.r1{
+    width: 40%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    border: 2px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.r2{
+    width: 40%;
+    height: 50%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.t1{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.t2{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+}
+.y1{
+    width: 40%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    border: 2px rgb(0, 255, 21) solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
