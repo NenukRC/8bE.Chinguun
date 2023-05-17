@@ -170,8 +170,8 @@
     align-items: center;
 }
 .s1{
-    width: 20%;
-    height: 25%;
+    width: 16%;
+    height: 20%;
     background-color: rgb(207, 207, 207);
     border-radius: 25px;
     display: flex;
@@ -180,7 +180,7 @@
 }
 .s2{
     width: 10%;
-    height: 25%;
+    height: 20%;
     background-color: rgb(207, 207, 207);
     border-radius: 25px;
     display: flex;
@@ -189,8 +189,8 @@
 }
 
 .s3{
-    width: 15%;
-    height: 25%;
+    width: 13%;
+    height: 20%;
     background-color: rgb(207, 207, 207);
     border-radius: 25px;
     display: flex;
@@ -199,7 +199,7 @@
 }
 .s4{
     width: 13%;
-    height: 25%;
+    height: 20%;
     background-color: rgb(207, 207, 207);
     border-radius: 25px;
     display: flex;
@@ -208,7 +208,7 @@
 }
 .s5{
     width: 11%;
-    height: 25%;
+    height: 20%;
     background-color: rgb(207, 207, 207);
     border-radius: 25px;
     display: flex;
