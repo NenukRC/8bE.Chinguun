@@ -9,7 +9,7 @@
 .q1{
     width: 100%;
     height: 25%;
-    background-image: url(https://media.istockphoto.com/id/1224388366/vector/colorful-geometric-background.jpg?s=612x612&w=0&k=20&c=0MH3nZPyJnqL41pnXHnejHlUqFBPmVVKt8dCl9tbaOs=);
+    background-image: url(https://img.freepik.com/premium-vector/flat-geometric-background-with-soft-pink-blue-color-pastel_564326-315.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
@@ -19,7 +19,7 @@
 .q2{
     width: 100%;
     height: 25%;
-    background-color: aqua;
+    background-color: rgb(221, 224, 224);
 }
 
 .q3{
@@ -40,12 +40,46 @@
 .w2{
     width: 50%;
     height: 100%;
-
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 .e1{
-    width: 100%;
+    width: 80%;
     height: 100%;
-    background-image: url(https://o.remove.bg/downloads/c8406e45-83d1-4e8a-a3c1-52aae5e2b58a/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662-removebg-preview.png);
+    background-image: url(./istockphoto-1200677760-612x612-removebg-preview.png);
     background-repeat: no-repeat;
-    background-size: 100% 80%;
+    background-size: 100% 100%;
+}
+.r1{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.r2{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+
+}
+.t1{
+    width: 35%;
+    height: 20%;
+    background-color: rgb(187, 0, 255);
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.y1{
+    width: 100%;
+    height: 60%;
+}
+.y2{
+    width: 100%;
+    height: 40%;
 }
